@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@media (min-width:1440px) {
+    body{
+        background-color: #4682B4;
+        font-family: 'Space Mono', monospace;
+        color: white;
+    }
+    main{
+        background-color: #363636;
+        margin: 2em 32em;
+        padding: 1em;
+        border-radius: 10px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #numero{
+        color: white;
+        background-color: #363636;
+        width: 100%;
+        font-size: 3em;
+        font-family: 'Space Mono', monospace; 
+        text-align: right; 
+        border: none;
+        box-shadow: #363636;
+    
+        
+    }
+    input[type=number]::-webkit-inner-spin-button { 
+        -webkit-appearance: none;
+        
+    }
+    input[type=number] { 
+       -moz-appearance: textfield;
+       appearance: textfield;
+    
+    }
+    .teclado{
+        width: 100%;
+        font-size: 2em;
+        background-color: #2b2929;
+        border: none;
+        color: white;
+        border-radius: 5px;
+    }
+    button{
+        padding: 0.4em;
+        margin: 0.1em;
+        width: 96%;
+    }
+    .bt{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 101%;
+    }
+    .resultado{
+        background-color: orange;
+        border-color: orange;
+        width: 100%;
+    }
+    .teclado {
+       
+        width: 96%;
+        
+    }
+    .resultado{
+        width: 99%;
+    }
+    button{
+        width: 90%;
+        font-family: 'Space Mono', monospace;
+        
+    }
+    .visor{
+        font-family: 'Space Mono', monospace;
+        font-size: 2em;
+        text-align: left;
+    }
+    
+}
+@media (max-width:800px) {
+    body{
+        background-color: #4682B4;
+        font-family: 'Space Mono', monospace;
+        color: white;
+    }
+    main{
+        background-color: #363636;
+        margin: 1em;
+        padding: 1.5em;
+        border-radius: 10px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 70px 70px 70px 100px;
+        margin: 0em -0.9em;
+        width: 96%;
+        
+    }
+    #numero{
+        color: white;
+        background-color: #363636;
+        width: 100%;
+        font-size: 3em;
+        font-family: 'Space Mono', monospace; 
+        text-align: right; 
+        border: none;
+        box-shadow: #363636;
+    
+        
+    }
+    input[type=number]::-webkit-inner-spin-button { 
+        -webkit-appearance: none;
+        
+    }
+    input[type=number] { 
+       -moz-appearance: textfield;
+       appearance: textfield;
+    
+    }
+    .teclado{
+        width: 100%;
+        font-size: 2em;
+        background-color: #2b2929;
+        border: none;
+        color: white;
+        border-radius: 5px;
+    }
+    button{
+        padding: 0.4em;
+        margin: 0.1em;
+        width: 96%;
+    }
+    .bt{
+        display: grid;
+        grid-template-columns: 200px 112px;
+        width: 100%;
+        margin: 0em -1em
+    }
+    .resultado{
+        background-color: orange;
+        border-color: orange;
+        width: 100%;
+    }
+    .teclado {
+       
+        width: 96%;
+        
+    }
+    .resultado{
+        width: 100%;
+    }
+    button{
+        width: 90%;
+        font-family: 'Space Mono', monospace;
+        
+    }
+    .visor{
+        font-family: 'Space Mono', monospace;
+        font-size: 2em;
+        text-align: left;
+    }
+    
+}
